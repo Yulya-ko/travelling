@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Забираємо базові стилі для елементів */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea, input {
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
